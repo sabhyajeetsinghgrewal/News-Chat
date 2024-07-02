@@ -1,0 +1,45 @@
+name: new_chat
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider: ^4.2.1
+  cupertino_icons: ^1.0.6
+  smooth_page_indicator: ^1.1.0
+  http: ^1.2.1
+  cached_network_image: ^3.3.1
+  webview_flutter: ^3.0.1
+  comment_box: ^0.0.18
+  shared_preferences: ^2.2.3
+  firebase_core: ^3.1.0
+  firebase_auth: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/business.jpg
+    - images/entertainment.png
+    - images/general.png
+    - images/health.jpg
+    - images/science.jpg
+    - images/sport.jpg
+    - images/building.jpg
+    - images/chat.png
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
